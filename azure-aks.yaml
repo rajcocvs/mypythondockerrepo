@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: kavitharc/azdevopsdocker:latest
+        image: azdevopsdocker:latest
         ports:
         - containerPort: 5000
 ---
